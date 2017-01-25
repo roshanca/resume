@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roshan - A web develper</title>
+  <meta name="author" content="Roshan Wu">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="/assets/css/screen.css" media="screen" rel="stylesheet">
+  <link href="//fonts.useso.com/css?family=PT+Sans" rel="stylesheet">
+  <script src="/assets/js/lib/jquery-1.9.1.min.js"></script>
+  <script src="/assets/js/lib/modernizr-2.0.min.js"></script>
+  <script>var _gaq = _gaq || [];</script>
+</head>
+<body>
+
+  <header role="banner">
+    <h1 id="logo">
+      <a href="/">Roshan</a>
+    </h1>
+    <nav>
+      <a href="/whoAmI" data-anchor="whoAmI">who am i</a>
+      <a href="/mySkills" data-anchor="mySkills">skills</a>
+      <a href="/whatIdo" data-anchor="whatIdo">works</a>
+      <a href="//roshanca.com">blog</a>
+      <!-- <a href="">∞</a> -->
+    </nav>
+  </header>
+
+  <main id="main" role="main">
+    <section id="memoCard" class="dark">
+      <h2 class="top">There’s always a better way.</h2>
+      <p>If u believe the staff u just have done was perfect, then u lose. If u believe the problem u just ran into was unsolvable, then u lose.</p>
+    </section>
+    
+    <section id="whoAmI" class="light">
+      <h2>Hi~</h2>
+      <div class="face">
+        <ul class="particles">
+          <li class="parallax-b1"></li>
+          <li class="parallax-b2"></li>
+          <li class="parallax-b3"></li>
+        </ul>
+      </div>
+      <p class="description">My name is <strong>Roshan Wu</strong>, a web developer as u can see.<br>I am currently living in Hangzhou, China. You could reach me by <a href="https://twitter.com/roshan_wu">Twitter</a> or contact <a href="mailto:wwj1983@gmail.com">wwj1983@gmail.com</a>.</p>
+    </section>
+    
+    <section id="mySkills" class="blue">
+      <h2>I am pretty good at...</h2>
+      <div class="content">
+        <ul class="features">
+          <li class="html">
+            <h3><span>HTML<sub>5</sub></span></h3>
+            <p>Semantic, tidy &amp; clean. Legacy compatible &amp; future proof. Accessible.</p>
+          </li>
+          <li class="css">
+            <h3><span>CSS</span></h3>
+            <p>Imaginative, responsive. efficiently by Stylus, SASS, LESS etc.</p>
+          </li>
+          <li class="js">
+            <h3><span>JavaScript</span></h3>
+            <p>Readable, elegant &amp; neat. Extensible &amp; logic. Performance optimized.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="moreSkills" class="lightblue">
+        <h3>I am not too shabby with this stuff either</h3>
+        <div class="content">
+          <ul class="features">
+            <li class="jquery">
+              <canvas width="160" height="160" class="gauge" id="gauge1"></canvas>
+              <span>jQuery</span>
+            </li>
+            <li class="node">
+              <canvas width="160" height="160" class="gauge" id="gauge2"></canvas>
+              <span>NodeJS &amp; MongoDB</span>
+            </li>
+            <li class="ruby">
+              <canvas width="160" height="160" class="gauge" id="gauge3"></canvas>
+              <span>Ruby &amp; Jekyll</span>
+            </li>
+            <li class="versions">
+              <canvas width="160" height="160" class="gauge" id="gauge4"></canvas>
+              <span>SVN &amp; Git</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section id="whatIdo" class="light">
+      <h2>What I Do</h2>
+      <div class="content">
+        <div class="arrowContainer">
+          <div id="workArrowLeft" class="workArrow arrow left dark"><a href="javascript:;">Prev Slide</a></div>
+          <div id="workArrowRight" class="workArrow arrow right dark"><a href="javascript:;">Next Slide</a></div>
+        </div>
+        <div id="workSlider">
+          <ul id="workTiles">
+            <li class="tiles">
+              <div class="desc">
+                <h3>Cairenhui community</h3>
+                <p><a href="http://www.cairenhui.com/" rel="external">cairenhui.com</a></p>
+                <p><span class="tag">financial</span><span class="tag">stock</span><span class="tag">micro-blogging</span></p>
+              </div>
+              <div class="preview">
+                <a href="http://www.cairenhui.com/" rel="external" class="preview-img" id="cairenhui" alt="Screenshot of cairenhui.com"></a>
+              </div>
+            </li>
+            <li class="tiles">
+              <div class="desc">
+                <h3>A online account opening system app for investors</h3>
+                <p><a href="http://kh.htsec.com/" rel="external">kh.htsec.com</a></p>
+                <p><span class="tag">investor</span><span class="tag">security</span><span class="tag">online account opening system</span></p>
+              </div>
+              <div class="preview">
+                <a href="http://kh.htsec.com/" rel="external" class="preview-img" id="htsec" alt="Screenshot of htsec.com"></a>
+              </div>
+            </li>
+            <li class="tiles">
+              <div class="desc">
+                <h3>XWeibo - safari extension</h3>
+                <p>not publish yet.</p>
+                <p><span class="tag">extension</span><span class="tag">UI mod</span></p>
+              </div>
+              <div class="preview">
+                <span class="preview-img" id="xweibo" alt="Screenshot of xweibo"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <br><br><br><br><br><br>
+  <footer role="contentinfo">
+    <p> © Copyright 2014 by Roshan Wu </p>
+  </footer>
+  <script src="/assets/js/site.js"></script>
+</body>
+</html>
