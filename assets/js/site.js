@@ -323,7 +323,7 @@ Swipe.prototype = {
 	}
 
 	function initCanvasStaff() {
-		
+
 		for (var i = 0, cl = canvas.length; i < cl; i++) {
 			var gauge = canvas[i].getContext("2d");
 
@@ -371,16 +371,16 @@ Swipe.prototype = {
 
 	$(D).ready(function () {
 
-		console.log("%clook what look? hey, say you ne!", "font-size: 22px; font-shadow: 1px 2xp 1px rgba(0, 0, 0, .3)");
+		console.log("%clook what look? hey, say you ne!", "font-size: 22px; font-shadow: 2px 2xp 1px rgba(0, 0, 0, .8); color: blue");
 		$(W).on("scroll", function () {
 			headerToggle();
-			
+
 			if ($("#moreSkills")[0].getBoundingClientRect().top < $(W).height() && !isGaugeInit) {
 				isGaugeInit = true;
 				initCanvasStaff();
 			}
 		});
-		
+
 		// logo
 		$("#logo").on("click", function (e) {
 			e.preventDefault();
@@ -417,7 +417,7 @@ Swipe.prototype = {
 			setupPage(e.state);
 		}
 
-		function setupPage(page) { 
+		function setupPage(page) {
 			if (page == null) return;
 
 			if (page.section) {
@@ -426,7 +426,7 @@ Swipe.prototype = {
 				$("html, body").animate({
 					scrollTop: 0
 				}, 300);
-			} 
+			}
 		}
 
 		// 头像效果
@@ -458,7 +458,7 @@ Swipe.prototype = {
 				setSlider('work', this);
 			}
 		});
-		
+
 		setSlider('work', workSlider);
 
 		function setSlider(id, slider) {
